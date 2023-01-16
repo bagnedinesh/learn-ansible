@@ -9,7 +9,7 @@
         msg: URL == {{URL}}
 
 - name: declare variable at task level
-  host: all
+  hosts: all
   connection: local
   tasks:
     - name: declare and access variable
