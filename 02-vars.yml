@@ -11,7 +11,7 @@
 - name: declare variable at play level
   hosts: all
   connection: local
-  vars-files:
+  vars_files:
     - var.yml
   tasks:
     - name: access a variable
