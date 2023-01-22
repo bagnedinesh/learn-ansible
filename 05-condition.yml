@@ -3,12 +3,22 @@
   connection: local
   vars:
     fruit_Name: banana
-    b: 200
+    a: 200
+    b: false
   tasks:
     - name: string condition
       debug:
         msg: Fruit name is banana
       when: fruit_Name == "banana"
+    - name: Numerical condition
+      debug:
+        msg: a is greater than 10
+      when: a > 10
+    - name: boolean condition
+      debug:
+        msg: b is true
+      when: b
+
 
 
 
