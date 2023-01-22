@@ -1,0 +1,13 @@
+- name: Demo on Conditions in Ansible
+  hosts: all
+  vars:
+    a: 100
+    b: 200
+  tasks:
+    - name: string condition
+      debug:
+        msg: Fruit name is banana
+      when: fruit_Name == "banana"
+
+
+
