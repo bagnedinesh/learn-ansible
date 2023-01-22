@@ -1,5 +1,6 @@
 - name: Demo on Conditions in Ansible
   hosts: localhost
+  connection: local
   vars:
     fruit_Name: Apple
     b: 200
