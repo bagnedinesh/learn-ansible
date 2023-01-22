@@ -1,7 +1,7 @@
 - name: Demo on Conditions in Ansible
   hosts: localhost
   vars:
-    a: 100
+    fruit_Name: Apple
     b: 200
   tasks:
     - name: string condition
