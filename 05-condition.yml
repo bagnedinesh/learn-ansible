@@ -1,5 +1,5 @@
 - name: Demo on Conditions in Ansible
-  hosts: all
+  hosts: localhost
   vars:
     a: 100
     b: 200
