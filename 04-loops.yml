@@ -12,8 +12,8 @@
     - name: Print Fruit name & Quantity
       debug:
         msg: Fruit name is {{ item.name }} & Quantity is {{ item.quantity }}
-        loop:
-          - { name: "Sweet lime", quantity: 1111 }
-          - { name: "Dragan fruit", quantity: 2222 }
-          - { name: "Strawberry", quantity: 3333 }
-          - { name: "Papaya", quantity: 4444 }
+      loop:
+         - { name: "Sweet lime", quantity: 1111 }
+         - { name: "Dragan fruit", quantity: 2222 }
+         - { name: "Strawberry", quantity: 3333 }
+         - { name: "Papaya", quantity: 4444 }
